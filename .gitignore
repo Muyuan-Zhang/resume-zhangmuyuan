@@ -1,0 +1,22 @@
+# ============================================================
+# 敏感内容：大疆 DJI 内部工作笔记
+# 含内部仓库结构（rd-points-platform / rd-points-sphere）、逐文件盘点、
+# 详设/PRD/技术方案原文、Confluence 对比清单 —— 属于雇主内部资料。
+# 默认不入库。若确实要版本化，请务必确认远端仓库为 private 后再删除本节。
+# ============================================================
+dji-notes/
+dji-notes.md.bak
+
+# 编辑备份文件
+*.bak
+
+# 操作系统 / 编辑器
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+
+# 构建与依赖
+node_modules/
+ohmycv-preview*.html
